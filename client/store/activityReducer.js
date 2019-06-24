@@ -2,7 +2,7 @@ import axios from 'axios'
 
 const GET_ACTIVITIES = 'GET_ACTIVITIES'
 
-export const getActivities = activities => ({
+const getActivities = activities => ({
   type: GET_ACTIVITIES,
   activities
 })
