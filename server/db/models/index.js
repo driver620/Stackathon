@@ -12,6 +12,9 @@ User.hasMany(Activity)
 User.hasMany(Bike)
 User.hasMany(Shoe)
 
+Shoe.hasMany(Activity)
+Bike.hasMany(Activity)
+
 module.exports = {
   User,
   Bike,
